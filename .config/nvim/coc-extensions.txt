@@ -1,0 +1,12 @@
+coc-snippets
+coc-highlight
+coc-eslint
+coc-yaml
+coc-xml
+coc-vimlsp
+coc-tsserver
+coc-python
+coc-omnisharp
+coc-json
+coc-go
+coc-deno
