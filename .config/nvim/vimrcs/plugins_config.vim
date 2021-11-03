@@ -64,3 +64,7 @@ let g:diminactive_use_colorcolumn = 1
 let g:diminactive_enable_focus = 1
 let g:diminactive_use_syntax = 1
 " hi ColorColumn ctermbg=18 guibg=#eee8d5
+
+
+" Fzf Search
+nnoremap <C-p> :Files<Cr>

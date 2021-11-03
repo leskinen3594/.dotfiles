@@ -26,6 +26,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'ctrlpvim/ctrlp.vim'
     Plug 'scrooloose/nerdtree'
 
+    " Fuzzy Search
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+
     " Airline
     Plug 'bling/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
