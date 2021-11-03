@@ -5,6 +5,7 @@ set runtimepath+=~/.config/nvim
 
 source ~/.config/nvim/vimrcs/install_plugins.vim
 source ~/.config/nvim/vimrcs/plugins_config.vim
+source ~/.config/nvim/vimrcs/coc.vim
 try
     source ~/.config/nvim/my_configs.vim
 catch

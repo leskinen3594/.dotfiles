@@ -30,14 +30,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'bling/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
+    " Intellisense
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
     Plug 'https://github.com/blueyed/vim-diminactive.git'
     " Plug 'tmux-plugins/vim-tmux-focus-events'
 
     " Require; nvim v0.5+
     " if has("nvim")
-    "     Plug 'nvim-lua/popup.nvim'
-    "     Plug 'nvim-lua/plenary.nvim'
-    "     Plug 'nvim-telescope/telescope.nvim'
+        " Plug 'neovim/nvim-lspconfig'
+        " Search popup "{{{
+        " ------------------------------------
+        " Plug 'nvim-lua/popup.nvim'
+        " Plug 'nvim-lua/plenary.nvim'
+        " Plug 'nvim-telescope/telescope.nvim'
+        "}}}
     " endif
 
 call plug#end()
