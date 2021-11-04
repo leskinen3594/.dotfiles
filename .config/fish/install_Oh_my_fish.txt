@@ -1,0 +1,39 @@
+# ------------------------------------------------------------------
+# Reference ; https://techviewleo.com/configure-fish-shell-with-oh-my-fish/
+# ------------------------------------------------------------------
+
+
+# Installation
+$ git clone https://github.com/oh-my-fish/oh-my-fish
+$ cd oh-my-fish
+$ bin/install --offline
+
+
+# Using omf
+# -----------------------------------------------------------------
+# Update all packages and repositories
+$ omf upate
+
+# To update omf only
+$ omf update omf
+
+# List installed packages
+$ omf list
+
+# Install theme, e.g ocean
+$ omf install ocean
+
+# Apply theme, e.g Ocean
+$ omf theme ocean
+
+# Install Plugins, e.g weather
+$ omf install weather
+
+# plugin-git
+$ omf install https://github.com/jhillyerd/plugin-git
+
+# Remove a package or theme
+$ omf remove <package|theme name>
+
+# Unistall Oh My Fish
+$ omf destroy
