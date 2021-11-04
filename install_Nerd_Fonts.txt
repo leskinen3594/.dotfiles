@@ -1,0 +1,11 @@
+# Download fonts; Fantasque Sans Mono
+https://www.nerdfonts.com/font-downloads
+
+# Unzip
+unzip <FONT NAME> -d <DIR FONT NAME>
+
+# Copy to .local/share/fonts
+cp <FONT NAME DIR>/* $HOME/.local/share/fonts
+
+# Reset font cache on Linux
+fc-cache -f $HOME/.local/share/fonts
