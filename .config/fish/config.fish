@@ -1,6 +1,6 @@
-function fish_greeting
-    neofetch
-end
+#function fish_greeting
+#    neofetch
+#end
 
 # function fish_prompt
 #    echo (set_color red)"┌["(set_color cyan)"$hostname"(set_color red)"]─["(set_color yellow)(date "+%H:%M-%d/%m")(set_color red)"]─["(set_color blue)"$PWD"(set_color red)"]"
@@ -15,5 +15,9 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+
 # Manage .dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Change nvim to vi
+alias vi='nvim'
