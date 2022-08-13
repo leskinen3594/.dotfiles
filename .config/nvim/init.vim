@@ -11,9 +11,13 @@ endtry
 
 
 " Press 'CAPS LOCK' to return to normal
-au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+"au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+"au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 
+" Map jk to Normal mode
+au VimEnter * map jk <Esc>
+au VimEnter * imap jk <Esc>
+au VimEnter * vmap jk <Esc>
 
 " Syntax theme; https://github.com/craftzdog/dotfiles-public
 " ---------------------------------------------------------------------
